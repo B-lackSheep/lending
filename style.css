@@ -242,7 +242,7 @@ footer {
 .footer_img {
   width: 3%;
 }
-@media screen and (min-width: 394px) and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   header {
     height: 12vw;
     font-size: 0.5em;
