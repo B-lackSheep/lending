@@ -54,9 +54,9 @@ a {
   color: white;
 }
 .btn_order2 {
-  margin-left: 5%;
+  margin-left: 50%;
   margin-top: 9%;
-  font-size: 8vh;
+  font-size: 10vh;
   font-weight: bold;
   background-color: black;
   color: white;
@@ -386,5 +386,140 @@ footer {
   }
   .footer_img {
     width: 6%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    height: 12vh;
+    font-size: 1em;
+  }
+  .first_screen {
+    height: 123vh;
+  }
+  .second_screen {
+    background-color: rgb(255, 248, 231);
+    background-image: none;
+    height: 90vh;
+  }
+  .title2 {
+    font-size: 3em;
+    margin-left: 10%;
+    max-width: 80%;
+    padding-top: 8%;
+  }
+  .main_text2 {
+    font-size: 1.7em;
+    max-width: 100%;
+    margin-left: 10%;
+    padding-right: 5%;
+  }
+  .li {
+    margin-top: 3%;
+  }
+  .third_screen {
+    height: 80vh;
+  }
+  .title3 {
+    font-size: 3.5em;
+    max-width: 60%;
+    padding-left: 0;
+    margin-left: 5%;
+    padding-top: 4%;
+  }
+  .main_text3 {
+    font-size: 1.8em;
+    padding-left: 0;
+    margin-left: 12%;
+    max-width: 65%;
+    padding-top: 0;
+    margin-top: 5%;
+    text-align: left;
+  }
+  .btn_order2 {
+    margin-left: 45%;
+    margin-top: 8%;
+    font-size: 3em;
+  }
+  .text {
+    font-size: 1.5em;
+  }
+  .fourth_screen {
+    height: 125vh;
+  }
+  .title5 {
+    font-size: 3.5em;
+  }
+  .subtitle {
+    font-size: 2.5em;
+  }
+  .main_text4 {
+    padding-right: 10%;
+  }
+  .review {
+    font-size: 1.5em;
+    margin-top: 10%;
+  }
+  .review:nth-child(2) {
+    margin-top: 15%;
+  }
+  .review:nth-child(3) {
+    margin-top: 15%;
+  }
+  .title6 {
+    font-size: 3.5em;
+    max-width: 100%;
+    padding-left: 10%;
+  }
+  .main_text5 {
+    max-width: 80%;
+    padding-left: 10%;
+    text-align: center;
+  }
+  .btn_order3 {
+    margin-left: 23%;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .second_screen {
+    height: 110vh;
+  }
+  .title3 {
+    padding-top: 10%;
+  }
+  .main_text3 {
+    padding-top: 0;
+    margin-top: 10%;
+  }
+  .fourth_screen {
+    height: 125vh;
+  }
+  .reviews {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .review:nth-child(2) {
+    margin-top: 10%;
+  }
+  .avatar:nth-child(1) {
+    margin-top: 40%;
+  }
+  .avatar:nth-child(2) {
+    margin-top: 50%;
+  }
+  .avatar:nth-child(3) {
+    margin-top: 50%;
+  }
+  .title6 {
+    text-align: center;
+  }
+  .main_text5 {
+    font-size: 3em;
+    text-align: center;
+  }
+  .btn_order3 {
+    font-size: 4em;
+  }
+  footer {
+    font-size: 2em;
   }
 }
